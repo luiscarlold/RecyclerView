@@ -1,7 +1,10 @@
 package com.abc.recyclerview;
 
+
+//pojo
+
 public class Source {
-    private final String title;
+    private final String title; //inmutable
     private final int image;
 
     /**
@@ -20,4 +23,10 @@ public class Source {
     public int getImage() {
         return image;
     }
+
+
+//    public void setTitle(String title){
+//        //this.title = title;
+//    }
+
 }

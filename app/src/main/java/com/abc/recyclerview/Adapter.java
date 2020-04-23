@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-public class Adapter extends RecyclerView.Adapter<ViewHolder> {
+    public class Adapter extends RecyclerView.Adapter<ViewHolder> {
     private List<Source> sourceList;
 
     public Adapter(List<Source> sourceList) {
